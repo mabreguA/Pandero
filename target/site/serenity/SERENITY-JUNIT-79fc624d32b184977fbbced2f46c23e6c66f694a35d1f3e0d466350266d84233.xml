@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Validar la inforacion al acceder y navegar en el sistema Ginni de Pandero" skipped="0" tests="1" time="93.81" timestamp="2021-09-10 04:31:34"><testcase name="Realizar un logeo en el sistema Ginni y verificar el mensaje del pop-up"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (chrome not reachable&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'PX10801HOW10', ip: '192.168.252.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x00F8A2D3+2663123]&#10;&#9;Ordinal0 [0x00F1A491+2204817]&#10;&#9;Ordinal0 [0x00E01FE0+1056736]&#10;&#9;Ordinal0 [0x00DF6F95+1011605]&#10;&#9;Ordinal0 [0x00E1FD61+1178977]&#10;&#9;Ordinal0 [0x00E1C335+1164085]&#10;&#9;Ordinal0 [0x00E19B7F+1153919]&#10;&#9;Ordinal0 [0x00E49D8F+1351055]&#10;&#9;Ordinal0 [0x00E499FA+1350138]&#10;&#9;Ordinal0 [0x00E4589B+1333403]&#10;&#9;Ordinal0 [0x00E21F74+1187700]&#10;&#9;Ordinal0 [0x00E22DC9+1191369]&#10;&#9;GetHandleVerifier [0x011230D6+1610054]&#10;&#9;GetHandleVerifier [0x011CB53B+2299307]&#10;&#9;GetHandleVerifier [0x01018DA9+519705]&#10;&#9;GetHandleVerifier [0x01017759+513993]&#10;&#9;Ordinal0 [0x00F2112D+2232621]&#10;&#9;Ordinal0 [0x00F255F8+2250232]&#10;&#9;Ordinal0 [0x00F25732+2250546]&#10;&#9;Ordinal0 [0x00F2E591+2286993]&#10;&#9;BaseThreadInitThunk [0x76B4FA29+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77D97A7E+286]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77D97A4E+238]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (chrome not reachable
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PX10801HOW10', ip: '192.168.252.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F8A2D3+2663123]
+	Ordinal0 [0x00F1A491+2204817]
+	Ordinal0 [0x00E01FE0+1056736]
+	Ordinal0 [0x00DF6F95+1011605]
+	Ordinal0 [0x00E1FD61+1178977]
+	Ordinal0 [0x00E1C335+1164085]
+	Ordinal0 [0x00E19B7F+1153919]
+	Ordinal0 [0x00E49D8F+1351055]
+	Ordinal0 [0x00E499FA+1350138]
+	Ordinal0 [0x00E4589B+1333403]
+	Ordinal0 [0x00E21F74+1187700]
+	Ordinal0 [0x00E22DC9+1191369]
+	GetHandleVerifier [0x011230D6+1610054]
+	GetHandleVerifier [0x011CB53B+2299307]
+	GetHandleVerifier [0x01018DA9+519705]
+	GetHandleVerifier [0x01017759+513993]
+	Ordinal0 [0x00F2112D+2232621]
+	Ordinal0 [0x00F255F8+2250232]
+	Ordinal0 [0x00F25732+2250546]
+	Ordinal0 [0x00F2E591+2286993]
+	BaseThreadInitThunk [0x76B4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D97A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D97A4E+238]
+). See below for more details.</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (chrome not reachable
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PX10801HOW10', ip: '192.168.252.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F8A2D3+2663123]
+	Ordinal0 [0x00F1A491+2204817]
+	Ordinal0 [0x00E01FE0+1056736]
+	Ordinal0 [0x00DF6F95+1011605]
+	Ordinal0 [0x00E1FD61+1178977]
+	Ordinal0 [0x00E1C335+1164085]
+	Ordinal0 [0x00E19B7F+1153919]
+	Ordinal0 [0x00E49D8F+1351055]
+	Ordinal0 [0x00E499FA+1350138]
+	Ordinal0 [0x00E4589B+1333403]
+	Ordinal0 [0x00E21F74+1187700]
+	Ordinal0 [0x00E22DC9+1191369]
+	GetHandleVerifier [0x011230D6+1610054]
+	GetHandleVerifier [0x011CB53B+2299307]
+	GetHandleVerifier [0x01018DA9+519705]
+	GetHandleVerifier [0x01017759+513993]
+	Ordinal0 [0x00F2112D+2232621]
+	Ordinal0 [0x00F255F8+2250232]
+	Ordinal0 [0x00F25732+2250546]
+	Ordinal0 [0x00F2E591+2286993]
+	BaseThreadInitThunk [0x76B4FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D97A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D97A4E+238]
+). See below for more details.&#13;
+stepdefinitions.PruebaStep.ingresoAGinni(PruebaStep.java:24)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
