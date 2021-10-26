@@ -4,24 +4,20 @@ Característica: Validar la inforacion al acceder y navegar en el sistema Ginni 
 
 
   @Escenario1
-  Esquema del escenario: Realizar un logeo en el sistema Ginni y verificar el mensaje del pop-up
-    Dado Ingreso a Ginni
-    Cuando  Ingreso las credenciales de usuario foliva y passrowd 123456 para el logeo
-    Y Realizar el restablecmiento de contraseña e ingresar el mensaje pruebaspandero
-    Entonces Validar que se muestre el siguiente
-      | <mensaje> |
-    Ejemplos:
-      | mensaje                                                     |
-      | Si el usuario es válido se te enviará un correo en el popup |
+  Esquema del escenario:
+    Dado Ingreso a la pagina de SauceDemo
+    Cuando Uso las credenciales de usuario standard_user y password secret_sauce
+    Entonces Valido que se muestre el siguiente
+      | <producto> |
+    Cuando Seleccionemos el producto
+    Y Agregamos al carrito y vamos al inventario
+      #Al agregar al carrito con el boton add tambien en la parte superior direccionamer al invetario
+    Entonces Confirmamos la compra del producto en el checkout
+    Y llenamos los siguientes datos
+      |<first>|<last>|<postal>|
+    Y continuamos para validar la compra y confirmar
+    Y Volver a la pagina de compra
 
-  @Escenario2
-  Esquema del escenario: Realizar un logeo en el sistema Ginni y verificar el cliente de un contrato
-    Dado Ingreso a Ginni
-    Cuando  Ingreso las credenciales de usuario foliva y passrowd 123456 para el logeo
-    Y Ingresar correctamente
-    Y Realizar la busqueda del contrato
-    Entonces Validar que se muestre al titular
-      | <titular> |
     Ejemplos:
-      | titular                     |
-      | PABLO  TORRES SIXTO GENNADY |
+      | producto                 | first   | last | postal |
+      | Sauce Labs Fleece Jacket | Cliente | Test | Lima20 |
