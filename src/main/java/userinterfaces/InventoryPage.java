@@ -7,5 +7,5 @@ import org.openqa.selenium.By;
 
 @DefaultUrl("https://www.saucedemo.com/inventory.html")
 public class InventoryPage extends PageObject {
-    public static final Target ITEM_PRODUCTO = Target.the("Campo de ingreso de usuario").located(By.id("user-name"));
+    public static final Target ITEM_PRODUCTO = Target.the("Producto").locatedBy("//div[text()='[Sauce Labs Fleece Jacket]']");
 }
